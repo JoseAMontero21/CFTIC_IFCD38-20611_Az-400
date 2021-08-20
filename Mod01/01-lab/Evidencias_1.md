@@ -408,13 +408,23 @@ The sprint backlog should contain all the information the team needs  to success
 
 2. On the **Taskboard** tab of the **Sprints** view, in the toolbar, on the right hand side, select the **View options** symbol (directly to the left of the funnel icon) and, in the **View options** dropdown list, select the **Work details** entry.
 
-   [![In the "Boards">"Sprints" window, "PUL-Web" team, select "View options" icon and click on "Work details"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_v1.png)
+   ![01_46](images/01_46.png)
+
+   
 
    > **Note**: The current sprint has a pretty limited scope. There are two tasks in the **To do** stage. At this point, neither task has been assigned. Both show a numeric value to the right of **Unassigned** entry representing the remaining work estimate.
 
 3. In the rectangle representing the **Add page for most recent tutorial**, click the **Unassigned** entry and, in the list of user accounts, select your account to assign the task to yourself.
 
+   ![01_47](images/01_47.png)
+
+   
+
 4. Assign the **Add page** task to yourself.
+
+   ![01_48](images/01_48.png)
+
+   
 
    > **Note**: This automatically updates the **Work By: Assigned To** section of the **Work details** pane.
 
@@ -424,21 +434,37 @@ The sprint backlog should contain all the information the team needs  to success
 
 6. On the **Capacity** tab of the **Sprints** view, directly under the **Activity** label, in the **Unassigned** dropdown list, select **Development** and, in the **Capacity per day** textbox, type **1**.
 
+   ![01_49](images/01_49.png)
+
+   
+
    > **Note**: This represents 1 hour of development  work per day. Note that you can add additional activities per user in  the case they do more than just development.
 
    > **Note**: Let’s assume you’re going to take some vacation.
 
 7. On the **Capacity** tab of the **Sprints** view, directly next to the entry representing your user account, in the **Days off** column, click the **0 days** entry. This will display a panel where you can set your days off.
 
+   ![01_50](images/01_50.PNG)
+
+   
+
 8. In the displayed panel, use the calendar view to set your  vacation to span five work days during the current sprint (within the  next three weeks) and, once completed, click **OK**.
 
-   [![Enter "Start", "End" and "Days Off" as mentioned](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/days_off_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/days_off_v1.png)
+   ![01_51](images/01_51.png)
+
+   
 
 9. Back on the **Capacity** tab of the **Sprints** view, click **Save**.
 
+   ![01_52](images/01_52.png)
+
+   
+
 10. Select the **Taskboard** tab of the **Sprints** view.
 
-    [![Review the "Work details" section information, all timing bars should be green, no overwork](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_window_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/work_details_window_v1.png)
+    ![01_53](images/01_53.PNG)
+
+    
 
     > **Note**: Note that the **Work details** panel has been updated to reflect your available bandwidth. The actual number displayed in the **Work details** panel might vary, but your total sprint capacity will be equal to the  number of working days remaining till the end of the sprint, since you  allocated 1 hour per day. Take a note of this value since you will use  it in the upcoming steps.
 
@@ -446,7 +472,9 @@ The sprint backlog should contain all the information the team needs  to success
 
 11. On the **Taskboard** tab of the **Sprints** view, in the square box representing the **Add page for most recent tutorial**, set the estimated number of hours to match your total capacity for this sprint, which you identified in the previous step.
 
-    [![Review the "Work details" section information, team´s assigned time is bigger than capacity.](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/over_capacity_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/over_capacity_v1.png)
+    ![01_54](images/01_54.png)
+
+    
 
     > **Note**: This automatically expands the **Development** and your personal capacities to their maximum. Since they’re large  enough to cover the assigned tasks, they stay green. However, the  overall **Team** capacity is exceeded due to the additional 3 hours required by the **Optimize data query for most recent tutorials** task.
 
@@ -454,7 +482,9 @@ The sprint backlog should contain all the information the team needs  to success
 
 12. On the **Taskboard** tab of the **Sprints** view, in the toolbar, on the right hand side, select the **View options** symbol (directly to the left of the funnel icon) and, in the **View options** dropdown list, select the **People** entry.
 
-    [![In the "Boards">"Sprints" window, "PUL-Web" team, select "View options" icon and click on "People"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/people_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/people_v1.png)
+    ![01_55](images/01_55.png)
+
+    
 
     > **Note**: This adjusts your view such that you can review the progress of tasks by person instead of by backlog item.
 
@@ -462,21 +492,45 @@ The sprint backlog should contain all the information the team needs  to success
 
 13. Click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
 
+    ![01_56](images/01_56.png)
+
+    
+
 14. On the **Settings** panel, select the **Styles** tab, click **+ Styling rule**, under the **Rule name** label, in the **Name** textbox, type **Development**, and, in the **Card color** dropdown list, select the green rectangle.
+
+    
+
+    ![01_57](images/01_57.png)
+
+    
+
+    ![01_58](images/01_58.png)
+
+    
 
     > **Note**: This will color all cards green if they meet the rule criteria set directly below, in the **Rule criteria** section.
 
 15. In the **Rule criteria** section, in the **Field** dropdown list, select **Activity**, in the **Operator** dropdown list, select **=**, and, in the **Value** dropdown list, select **Development**.
 
-    [!["Settings" window, make sure all fields have mentioned information](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/styles_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/styles_v1.png)
+    ![01_59](images/01_59.png)
+
+    
 
     > **Note**: This will set all cards assigned to **Development** activities green.
 
 16. On the **Settings** panel, select the **Backlogs** tab.
 
+    ![01_60](images/01_60.PNG)
+
+    
+
     > **Note**: Entries on this tab allow you to set the levels available for navigation. Epics are not included by default, but you could change that.
 
 17. On the **Settings** panel, select the **Working days** tab.
+
+    ![01_61](images/01_61.PNG)
+
+    
 
     > **Note**: Entries on this tab allow you to specify the **Working days** the team follows. This applies to capacity and burndown calculations.
 
@@ -486,7 +540,19 @@ The sprint backlog should contain all the information the team needs  to success
 
 19. On the **Settings** panel, click **Save and close** to save the styling rule.
 
+    ![01_62](images/01_62.png)
+
+    
+
     > **Note**: The task associated with **Development** is now green and very easy to identify.
+
+
+
+![01_63](images/01_63.PNG)
+
+
+
+
 
 #### Task 4: Customize Kanban boards
 
@@ -498,15 +564,25 @@ To maximize a team’s ability to consistently deliver high quality  software, K
 
 2. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
 
+   ![01_64](images/01_64.png)
+
+   
+
    > **Note**: The team is emphasizing work done with  data, so there is special attention paid to any task associated with  accessing or storing data.
 
 3. On the **Settings** panel, select the **Tag colors** tab, click **+ Tag color**, in the **Tag** textbox, type **data** and leave the default color in place.
 
-   [!["Settings" window, "Tag colors", include "data" tag](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tag_color_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tag_color_v1.png)
+   ![01_65](images/01_65.png)
+
+   
 
    > **Note**: Whenever a backlog item or bug is tagged with **data**, that tag will be highlighted.
 
 4. On the **Settings** panel, select the **Annotations** tab.
+
+   ![01_66](images/01_66.PNG)
+
+   
 
    > **Note**: You can specify which **Annotations** you would like included on cards to make them easier to read and  navigate. When an annotation is enabled, the child work items of that  type are easily accessible by clicking the visualization on each card.
 
@@ -516,21 +592,43 @@ To maximize a team’s ability to consistently deliver high quality  software, K
 
 6. On the **Settings** panel, click **Save and close** to save the styling rule.
 
+   ![01_67](images/01_67.png)
+
+   
+
 7. On the **Board** tab of the **PUL-Web** panel, right-click the rectangle representing the **As a customer, I want to view new tutorials** backlog item and select **Open**.
+
+   ![01_68](images/01_68.png)
+
+   
 
 8. On the **As a customer, I want to view new tutorials** panel, at the top of the panel, to the right of the **0 comments** entry, click **Add tag**.
 
+   ![01_69](images/01_69.png)
+
+   
+
 9. In the resulting textbox, type **data** and press the **Enter** key.
+
+   ![01_70](images/01_70.png)
+
+   
 
 10. Repeat the previous step to add the **ux** tag.
 
 11. On the **As a customer, I want to view new tutorials** panel, click **Save & Close**.
 
-    [![On the ""As a customer, I want to view new tutorials" panel, click "Save & Close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tags_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/tags_v1.png)
+    ![01_71](images/01_71.png)
+
+    
 
     > **Note**: The two tags are now visible on the card, with the **data** tag highlighted in yellow as configured.
 
 12. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
+
+    ![01_72](images/01_72.png)
+
+    
 
 13. On the **Settings** panel, select the **Columns** tab.
 
@@ -538,27 +636,53 @@ To maximize a team’s ability to consistently deliver high quality  software, K
 
 14. Click **+ Column**, under the **Column name** label, in the **Name** textbox, type **QA Approved** and, in the **WIP limit** textbox, type **1**
 
+    ![01_73](images/01_73.png)
+
+    
+
     > **Note**: The Work in progress limit of 1  indicates that only one work item should be in this stage at a time. You would ordinarily set this higher, but there are only two work items to  demonstrate the feature.
 
 15. On the **Settings** panel, on the **Columns** tab, drag and drop the newly created tab between **Committed** and **Done**.
 
 16. On the **Settings** panel, click **Save and close**.
 
-    [![On the "Settings" panel, clikc "Save & Close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/qa_column_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/qa_column_v1.png)
+    ![01_74](images/01_74.png)
+
+    
 
     > **Note**: Verify that you now see the new stage in the workflow.
 
 17. Drag the **As a customer, I want to see tutorials I recently viewed** work item from the **Committed** stage into the **QA Approved** stage.
 
+    
+
+    ![01_75](images/01_75.png)
+
+    
+
+    ![01_76](images/01_76.png)
+
+    
+
 18. Drag the **As a customer, I want to view new tutorials** work item from the **Done** stage into the **QA Approved** stage.
 
-    [![The stage now exceeds its **WIP** limit and is colored red as a warning next to "QA Approved" column](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/wip_limit_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/wip_limit_v1.png)
+    ![01_77](images/01_77.png)
+
+    
 
     > **Note**: The stage now exceeds its **WIP** limit and is colored red as a warning.
 
 19. Move the **As a customer, I want to see tutorials I recently viewed** backlog item back to **Committed**.
 
+    ![01_78](images/01_78.png)
+
+    
+
 20. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
+
+    ![01_79](images/01_79.png)
+
+    
 
 21. On the **Settings** panel, return to the **Columns** tab and select the **QA Approved** tab.
 
@@ -572,11 +696,27 @@ To maximize a team’s ability to consistently deliver high quality  software, K
 
 24. On the **Settings** panel, click **Save and close**.
 
-    [![On the "Settings" panel, review information and click "Save and close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/dd_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/dd_v1.png)
+    ![01_80](images/01_80.png)
+
+    
 
     > **Note**: The **QA Approved** stage now has **Doing** and **Done** columns. You can also click the informational symbol (with letter **i** in a circle) next to the column header to read the **Definition of done**.
 
+    
+
+    ![01_81](images/01_81.png)
+
+    
+
+    ![01_82](images/01_82.png)
+
+    
+
 25. On the **Boards** panel, click the **Configure team settings** cogwheel icon (directly to the right of the funnel icon).
+
+    ![01_83](images/01_83.png)
+
+    
 
     > **Note**: Your Kanban board supports your ability to visualize the flow of work as it moves from new to done. When you add **swimlanes**, you can also visualize the status of work that supports different  service-level classes. You can create a swimlane to represent any other  dimension that supports your tracking needs.
 
@@ -586,9 +726,21 @@ To maximize a team’s ability to consistently deliver high quality  software, K
 
 28. On the **Settings** panel, click **Save and close**.
 
-    [![On the "Settings" panel, review information and click "Save and close"](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/swimlane_v1.png)](https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs/images/m1/swimlane_v1.png)
+    ![01_84](images/01_84.png)
+
+    
 
 29. Back on the **Board** tab of the **Boards** panel, drag and drop the **Committed** work item onto the **QA Approved | Doing** stage of the **Expedite** swimlane so that it gets recognized as having priority when QA bandwidth becomes available.
+
+    
+
+    ![01_85](images/01_85.PNG)
+
+    
+
+    ![01_86](images/01_86.png)
+
+    
 
     > **Note**: If you would like to review a more sophisticated board with many more work items, on the **Board** tab of the **Boards** panel, in the upper left corner, select **PUL-Web** and, in the dropdown list of teams, select the **Agile Planning and Portfolio Management with Azure Boards Team**. This board provides a playground for you to experiment with and review the results.
     >
